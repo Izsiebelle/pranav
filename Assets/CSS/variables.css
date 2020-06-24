@@ -1,0 +1,15 @@
+
+:root{
+    --primary-color: #0015BC; 
+    --secondary-color: #3C4CC8;
+    --title-color: #00108A;
+    --text-color: #12173D;
+    --border-color:#EAEAE5;
+    --gradient-color: linear-gradient(90deg,#00108A  0%, #0015BC 100%);
+    --shadow-color: 0px 10px 30px #3C4CC8;
+    --box-shadow: 0px 10px 30px #0015BC;
+
+    /* font family variables */
+    /* --KGAllofMe: 'KGAllofMe', cursive; */
+
+}

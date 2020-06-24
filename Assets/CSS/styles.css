@@ -1,0 +1,70 @@
+/* import variables */
+@import url('./variables.css');
+
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.section1 {
+    position: relative; top: 0; left: 0;
+    width: 100%;
+}
+
+.main-title {
+    margin: auto;
+    width: 100%;
+    padding-top: 300px;
+}
+
+.title-text {
+    font: normal bold 100px/75px Arial;
+    color: var(--title-color);
+}
+
+.button {
+    padding: .8rem 2.2rem;
+    margin-top: 1rem;
+    font: normal 500 16px/20px var(--monsterrat);
+    position: relative;
+    border: 3px solid white;
+    border-radius: 4px;
+}
+
+.button.primary-button {
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: all 0.6s ease;
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color:var(--primary-color);
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    bottom:-2px;
+    right: -2px;
+    background: var(--gradient-color);
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.button.secondary-button {
+    background: white;
+    background-clip: padding-box;
+    color: var(--primary-color);
+    transition: all 0.6s ease;
+}
+
+.button.secondary-button:hover {
+    background: var(--gradient-color);
+    color: whitesmoke;
+}
+
