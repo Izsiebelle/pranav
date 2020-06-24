@@ -68,3 +68,43 @@ html, body {
     color: whitesmoke;
 }
 
+/* Navigation style */
+.navbar .navbar-brand{
+    padding: 0 2rem 0 2rem;
+}
+
+.navbar {
+    padding: 0 10rem;
+}
+
+.nav-item .nav-link {
+    text-transform: uppercase;
+    padding: 0;
+    color: var(--title-color);
+}
+
+
+.navbar-nav a {
+    font-size: 24px;
+    margin-left: 3rem;
+}
+
+.navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.nav-donate {
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 20px;
+}
