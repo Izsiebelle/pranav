@@ -8,3 +8,7 @@ function goAbout() {
 function goDonate() {
     window.location.href='https://secure.actblue.com/donate/electpranavnanda';
 }
+
+function goMeeting() {
+    window.location.href='https://calendly.com/electpranavnanda';
+}
