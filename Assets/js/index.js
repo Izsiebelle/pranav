@@ -6,5 +6,5 @@ function goAbout() {
 }
 
 function goDonate() {
-    window.location.href='https://secure.actblue.com/';
+    window.location.href='https://secure.actblue.com/donate/electpranavnanda';
 }
