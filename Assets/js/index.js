@@ -1,6 +1,7 @@
 let meet1 = getElementById('meet-pranav1');
 let donate1 = getElementById('donate1');
 let subscribe = getElementById('subscribe');
+let meet = getElementById('meet');
 
 function goAbout() {
     window.location.href='../../Pages/about.html';
