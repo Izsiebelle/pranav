@@ -222,3 +222,13 @@ footer {
     margin-top: 2rem;
     margin-left: 8.75rem ;
 }
+
+/* Contact page */
+
+.lead button {
+    margin-left: 0;
+}
+
+.jumbotron p {
+    color: var(--text-color);
+}
