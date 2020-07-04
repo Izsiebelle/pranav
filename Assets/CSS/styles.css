@@ -132,6 +132,41 @@ form input {
     margin-left: 5rem;
 }
 
+/* About section on main page */
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.about-img {
+    width: 49%;
+}
+
+.about-section-header {
+    color: var(--primary-color);
+    font: Arial;
+    text-transform: uppercase;
+    padding: 1rem 0 1rem 1rem;
+    font-size: 30px;
+}
+
+.about-para{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-para p {
+    width: 80%;
+    margin: 1rem;
+}
+
+.about-para button {
+    width: 30%;
+    justify-content: center;
+    margin-left: 15rem;
+}
 /* About Page styling */
 
 .page-title {
