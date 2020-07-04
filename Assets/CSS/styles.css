@@ -172,6 +172,23 @@ html, body {
     justify-content: center;
     margin-left: 15rem;
 }
+
+/* Footer section */
+
+footer {
+    background: var(--primary-color);
+}
+
+.disclaimer {
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    color: whitesmoke;
+}
+
+
+
+
 /* About Page styling */
 
 .page-title {
@@ -189,4 +206,16 @@ html, body {
 .schedule-time {
     margin: 1rem 5rem;
     
+}
+
+/* Issues Page styling */
+.issues-page {
+    margin: 3rem;
+}
+
+.issues-page h1 {
+    color: var(--title-color);
+    font-size: 50px;
+    margin-top: 2rem;
+    margin-left: 8.75rem ;
 }
