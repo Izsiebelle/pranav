@@ -195,7 +195,10 @@ footer {
     color: var(--title-color);
     font-size: 50px;
     margin-top: 2rem;
-    margin-left: 2rem;
+}
+
+.extra-margin {
+    margin-left: 3rem;
 }
 
 .about-para {
