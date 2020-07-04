@@ -114,22 +114,27 @@ html, body {
 .list-area {
     background-color: var(--primary-color);
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-header {
+    display: flex;
+    justify-content: center;
     color: whitesmoke;
     font: Arial;
     text-transform: uppercase;
-    padding: 2rem 0 1rem 4rem;
     font-size: 30px;
+    margin-top: 1rem;
 }
 
-form input {
-    margin: 1rem 0 1rem 4rem;
+.button-submit {
+    display: flex;
+    justify-content: center;
 }
 
 .submit-button {
-    margin-left: 5rem;
+    margin: 1rem;
 }
 
 /* About section on main page */
