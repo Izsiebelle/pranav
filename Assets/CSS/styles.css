@@ -238,3 +238,14 @@ footer {
 .jumbotron p {
     color: var(--text-color);
 }
+
+/* Get Involved Page */
+
+.involved-section-header {
+    color: var(--primary-color);
+    font: Arial;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin: 2rem;
+}
