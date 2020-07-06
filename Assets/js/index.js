@@ -18,3 +18,7 @@ function goMeeting() {
 function goSubscribe() {
     window.location.href='../../Pages/subscribe.html';
 }
+
+function goIssues() {
+    window.location.href='../../Pages/issues.html';
+}
