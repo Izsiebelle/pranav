@@ -112,7 +112,7 @@ html, body {
 /* Mailing list */
 
 .list-area {
-    background-color: var(--primary-color);
+    background-color: var(--title-color);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -182,7 +182,7 @@ html, body {
 /* Footer section */
 
 footer {
-    background: var(--primary-color);
+    background: var(--title-color);
 }
 
 .disclaimer {
@@ -192,6 +192,12 @@ footer {
     color: whitesmoke;
 }
 
+.copyright {
+    font-size: small;
+    color: var(--title-color);
+    text-align: center;
+    margin: 0;
+}
 
 
 
