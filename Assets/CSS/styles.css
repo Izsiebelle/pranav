@@ -329,4 +329,40 @@ footer {
         width: 30%;
         margin-left: 1rem;
     }
+
+
+    /* About Page Mobile styling */
+
+    .extra-margin {
+        margin-left: 1rem;
+    }
+
+    .about-para {
+        margin-left: 0;
+        margin-right: 1rem;
+    }
+
+    .images {
+        display: flex;
+
+    }
+
+    .schedule-time {
+        margin: 1rem 5rem;
+        
+    }
+
+    /* Issues Page styling */
+    .issues-page {
+        margin: 0;
+    }
+
+    .issues-page h1 {
+        margin-left: 1rem ;
+    }
+
+    /* contact page styling */
+    .contact-btn {
+        padding: 1rem;
+    }
 }
