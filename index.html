@@ -6,10 +6,17 @@
     <title>Pranav Nanda</title>
     <!-- Custom css -->
     <link rel="stylesheet" type="text/css" href="/Assets/CSS/styles.css">
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <!-- JS link -->
+     <script src="./Assets/js/index.js"></script>
     <!-- Bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- JS link -->
-    <script src="./Assets/js/index.js"></script>
+    <!-- Bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <div class="container section1">
@@ -34,31 +41,31 @@
     </div>
 <!-- Navigation bar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./Pages/about.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./Pages/issues.html">Issues</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./Pages/testimonals.html">Testimonals</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./Pages/contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./Pages/getInvolved.html">Get Involved</a>
-            </li>
-          </ul>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/issues.html">Issues</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/testimonals.html">Testimonals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/getInvolved.html">Get Involved</a>
+                    </li>
+                </ul>
           <span class="navbar-text">
             <button id="donate1" onclick="goDonate()" type="button" class="btn button primary-button text-uppercase nav-donate">Donate</button>
           </span>
@@ -82,7 +89,10 @@
         <div class="about-para">
             <h3 class="about-section-header">About Pranav</h3>
             <p>
-                I grew up in a small town on the seacoast of New Hampshire with my parents and two sisters, as a second-generation Indian-American. After graduating from high school I moved to Washington DC to attend George Washington University. When I started at GW, I thought I had my whole life planned out: I would study International Affairs in our nation's capital, go to Law School, and then move back home to New Hampshire. But, while at GW, I fell in love with the city of DC. Throughout my life, I have been dedicated to working to improve my local community. Whether it was on the soccer field, in the classroom, in different areas around the world, or in the classroom, I have always worked to make a difference in the lives of the people I interact with. And these values are what will lead me in my work if I am elected to represent you as your ANC commissioner. 
+                My name is Pranav Nanda and I am running for the Advisory Neighborhood Commission (6C04). I am a second generation Indian-American and grew up in a small town on the seacoast of New Hampshire with my parents and two sisters. Throughout my life, I have been dedicated to working to improve my local community through volunteer work, community activism, and political involvement.
+            </p>
+            <p>
+                Whether it was on the soccer field, in the classroom, or in different areas of the world,  I have always found purpose in making a difference in the lives of the people I interact with. And these values are what will lead me in my work if I am elected to represent you as your ANC commissioner.
             </p>
             <button id="meet-pranav1" onclick="goAbout()" type="button" class="btn button primary-button mr-4 text-uppercase">Meet Pranav</button>
         </div>
