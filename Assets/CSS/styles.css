@@ -4,7 +4,8 @@
 
 
 html, body {
-    margin: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -28,6 +29,9 @@ html, body {
     color: var(--title-color);
 }
 
+.main-img {
+    content: url('../images/pranav1.jpg');
+}
 .button {
     padding: .8rem 2.2rem;
     margin-top: 1rem;
@@ -155,6 +159,10 @@ html, body {
     width: 49%;
 }
 
+.pranav-about {
+    content: url('../images/pranav3.jpg');
+}
+
 .about-section-header {
     color: var(--primary-color);
     font: Arial;
@@ -263,9 +271,10 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+
     .main-title {
         margin: 1rem 0;
-        width: 70%;
+        width: 50%;
         padding-top: 0;
     }
 
@@ -284,5 +293,40 @@ footer {
         margin-bottom: 1rem;
     }
 
+    .main-img {
+        content: url('../images/pranav1-mobile.jpg');
+        max-width: 98%;
+    }
+
+    /* about section mobile */
+    .about-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
     
+    .about-img {
+        width: 100%;
+    }
+    
+    .pranav-about {
+        content: url('../images/pranav3-mobile.jpg');
+        width: 100%;
+    }
+    
+    .about-para{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-para p {
+        width: 98%;
+        margin: 1rem;
+    }
+    
+    .about-para button {
+        width: 30%;
+        margin-left: 1rem;
+    }
 }
